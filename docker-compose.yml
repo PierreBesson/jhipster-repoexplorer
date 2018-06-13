@@ -1,0 +1,9 @@
+version: '3'
+services:
+  repoexplorer:
+    image: morucci/repoxplorer
+    container_name: repoexplorer
+    ports:
+      - 51000:51000
+    volumes:
+      - $PWD/conf:/etc/repoxplorer/defs:z

@@ -1,0 +1,50 @@
+---
+project-templates:
+  default:
+    uri: https://github.com/jhipster/%(name)s
+    branches:
+    - master
+    gitweb: https://github.com/jhipster/%(name)s/commit/%%(sha)s
+
+projects:
+  JHipster:
+    description: JHipster
+    repos:
+      generator-jhipster:
+        template: default
+      jhipster.github.io:
+        template: default
+      jhipster:
+        template: default
+      jhipster-registry:
+        template: default
+      jhipster-core:
+        template: default
+      jhipster-uml:
+        template: default
+      jhipster-ide:
+        template: default
+      jhipster-online:
+        template: default
+      jhipster-console:
+        template: default
+      ng-jhipster:
+        template: default
+      react-jhipster:
+        template: default
+      jhipster-devbox:
+        template: default
+      jdl-studio:
+        template: default
+      jdl-samples:
+        template: default
+      jhipster-fisherman-plugin:
+        template: default
+      jhipster-oh-my-zsh-plugin:
+        template: default
+      chocolatey-package:
+        template: default
+      generator-jhipster-module:
+        template: default
+      consul-config-loader:
+        template: default
