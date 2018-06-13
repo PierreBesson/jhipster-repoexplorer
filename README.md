@@ -4,7 +4,7 @@ Based on [morucci/repoxplorer](https://github.com/morucci/repoxplorer)
 
 ## How to use
 
-Run with `docker-compose up -d`, open [localhost:51000/index.html](localhost:51000/index.html) and wait a bit for the data to be indexed.
+Run with `docker-compose up -d` and open [localhost:51000/index.html](http://localhost:51000/index.html) and wait a bit for the data to be indexed.
 
 Configuration reference for the `conf/projects.yaml file`: [morucci/repoxplorer#configuration](https://github.com/morucci/repoxplorer#configuration)
 
