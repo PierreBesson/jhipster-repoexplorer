@@ -7,3 +7,7 @@ services:
       - 51000:51000
     volumes:
       - $PWD/conf:/etc/repoxplorer/defs:z
+      # persist indexed data in volumes
+      - $PWD/data-volumes/elasticsearch:/var/lib/elasticsearch
+      - $PWD/data-volumes/repoxplorer:/var/lib/repoxplorer
+
